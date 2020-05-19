@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/create_room_setting"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".createRoomSettingActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="37dp"
+            android:text="카테고리 : "
+            tools:ignore="Suspicious0dp" />
+
+        <EditText
+            android:layout_width="339dp"
+            android:layout_height="60dp"
+            android:hint="카테고리"
+            tools:ignore="Suspicious0dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="37dp"
+            android:text="기간 : "
+            tools:ignore="Suspicious0dp" />
+
+        <EditText
+            android:layout_width="339dp"
+            android:layout_height="60dp"
+            android:hint="기간"
+            tools:ignore="Suspicious0dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="37dp"
+            android:text="인증방식 : "
+            tools:ignore="Suspicious0dp" />
+
+        <EditText
+            android:layout_width="339dp"
+            android:layout_height="60dp"
+            android:hint="인증방식"
+            tools:ignore="Suspicious0dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="37dp"
+            android:text="최대인원 : "
+            tools:ignore="Suspicious0dp" />
+
+        <EditText
+            android:layout_width="339dp"
+            android:layout_height="60dp"
+            android:hint="최대인원"
+            tools:ignore="Suspicious0dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="37dp"
+            android:text="제목 : "
+            tools:ignore="Suspicious0dp" />
+
+        <EditText
+            android:layout_width="339dp"
+            android:layout_height="60dp"
+            android:hint="제목"
+            tools:ignore="Suspicious0dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="37dp"
+            android:text="프로젝트 설명 : "
+            tools:ignore="Suspicious0dp" />
+
+        <EditText
+            android:layout_width="339dp"
+            android:layout_height="60dp"
+            android:hint="프로젝트 설명"
+            tools:ignore="Suspicious0dp" />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="setting"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="카테고리, 기간, 인증 방식, 최대인원은 button을 통해서 입력 받을 수 있도록 작성"/>
+
+</LinearLayout>
