@@ -24,4 +24,5 @@ public class ExampleInstrumentedTest {
 
         assertEquals("com.example.term_project_9", appContext.getPackageName());
     }
+
 }
