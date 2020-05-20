@@ -28,6 +28,6 @@ public class createRoomSettingActivity extends AppCompatActivity {
 
 
     public void settingButton(View view) {
-
+        CategoryEditText.getText();
     }
 }
