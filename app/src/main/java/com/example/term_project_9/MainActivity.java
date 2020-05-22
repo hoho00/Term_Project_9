@@ -35,7 +35,10 @@ public class MainActivity extends AppCompatActivity {
         if(user != null) {
             Toast.makeText(this, "자동로그인 " + user.getUid(), Toast.LENGTH_SHORT).show();
         }
+        Intent intent = new Intent(this, SecondActivity.class);
+        startActivity(intent);
     }
+
     public void loginButton(View v) {
 
         mAuth.signInWithEmailAndPassword(mEmail.getText().toString(), mPassword.getText().toString())

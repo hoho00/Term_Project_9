@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/item_post_title"
+        android:layout_width="101dp"
+        android:layout_height="59dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="TITLE" />
+
+    <TextView
+        android:id="@+id/item_post_contents"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        tools:text="contents" />
+
+    <TextView
+        android:id="@+id/item_post_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="category"/>
+
+    <TextView
+        android:id="@+id/item_post_term"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="term" />
+
+    <TextView
+        android:id="@+id/item_post_maxNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="maxNum"/>
+
+
+</LinearLayout>

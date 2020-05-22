@@ -101,7 +101,7 @@
             tools:ignore="Suspicious0dp" />
 
         <EditText
-            android:id="@+id/explanation_setting"
+            android:id="@+id/contents_setting"
             android:layout_width="339dp"
             android:layout_height="60dp"
             android:hint="프로젝트 설명"

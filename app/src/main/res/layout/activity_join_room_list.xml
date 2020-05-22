@@ -4,10 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".joinRoomListActivity">
+    tools:context=".joinRoomListActivity"
+    android:orientation="vertical">
     <TextView
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:text="여기다 만들어진 방들의 list를 listview 로 만들어서 클릭하면 방에 join 할 수 있도록 작성"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/room_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
 </LinearLayout>
